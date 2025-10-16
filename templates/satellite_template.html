@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Dados de Satélite</title>
+    <style>
+        body { font-family: sans-serif; margin: 16px; background-color: #0b1a23; color: white; }
+        h1 { color: #4CAF50; }
+        img { max-width: 100%; height: auto; border-radius: 8px; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <h1>??? Dados de Satélite (NASA APOD)</h1>
+    <h2>{{ title }}</h2>
+    <img src="{{ image_url }}" alt="Imagem de Satélite do Dia">
+    <p>{{ explanation }}</p>
+    <p style="margin-top: 20px;">Fonte: API da NASA.</p>
+</body>
+</html>
